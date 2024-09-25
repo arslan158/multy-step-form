@@ -36,10 +36,7 @@ export default function FirstStep({setOptionSelected, optionSelected}) {
           );
           
         })}
-        {/* <div className="bg-white border border-[#E5E7EB] text-center py-5">
-                <p className="text-xl font-medium text-[#6B7280]">1000</p>
-
-                </div> */}
+       
       </div>
     </div>
   );
