@@ -123,7 +123,7 @@ export default function Form() {
         {currentStep === 3 && <ThirdStep />}
       </div>
 
-      <div className={`w-[480px] mx-auto flex mt-10 ${currentStep === 1 ? 'justify-end':'justify-center'}`}>
+      <div className={`md:w-[480px] w-4/5 mx-auto flex mt-10 ${currentStep === 1 ? 'justify-end':'justify-center'}`}>
         {/* Show or hide the Next button based on optionSelected */}
         <button 
           className={`bg-green-600 py-2.5 px-10 text-white text-balance font-medium rounded-md ${showNextBtn ? 'hidden' : ''} ${currentStep === totalSteps ? 'hidden' : ''}`} 

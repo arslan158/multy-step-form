@@ -2,7 +2,7 @@
   
 export default function SecondStep({ name, setName, email, setEmail, phoneNumber, setPhoneNumber, text, setText, errors }) {
     return (
-      <div className="w-[520px] mx-auto mt-10">
+      <div className="md:w-[520px] w-4/5  mx-auto mt-10">
         <div className="text-center"> 
           <h2 className="text-[28px] font-semibold mb-5">Step #2</h2>
           <h3 className="text-[28px] font-semibold leading-tight mb-5">Details</h3>

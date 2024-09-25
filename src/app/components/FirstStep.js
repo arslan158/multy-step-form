@@ -14,7 +14,7 @@ export default function FirstStep({setOptionSelected, optionSelected}) {
 //   const [optionSelected, setOptionSelected] = useState("");
 
   return (
-    <div className="w-[480px] text-center mx-auto">
+    <div className="md:w-[480px] w-4/5 text-center mx-auto">
       <h2 className="text-[28px] font-semibold mb-10">Step # 1</h2>
       <h3 className="text-[28px] font-semibold leading-tight mb-10">
         What is your monthly digital marketing budget?
